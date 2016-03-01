@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12849E6735168BF39EA0C65F /* Pods_Everton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDC7B45D13393F317C471BC /* Pods_Everton.framework */; };
+		2D22A5C81C5000A3009AE70C /* LeagueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */; };
+		2D22A5CD1C50018E009AE70C /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5CC1C50018E009AE70C /* League.swift */; };
+		2D22A5DB1C50CBD9009AE70C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5DA1C50CBD9009AE70C /* Extensions.swift */; };
+		2D22A5DD1C50D153009AE70C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5DC1C50D153009AE70C /* LoadingView.swift */; };
+		2D22A6041C510331009AE70C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A6031C510331009AE70C /* Settings.swift */; };
+		2D3F99AF1C68B2E600214568 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A709F1C5F99690059B141 /* iPad.storyboard */; };
+		2D4B52A01C52FFF5002A40D8 /* EFCLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B529F1C52FFF5002A40D8 /* EFCLaunch.storyboard */; };
+		2D4B52A61C5300C3002A40D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D632F3F1C40294C005C6DE1 /* Assets.xcassets */; };
+		2D556B531C41C1D5001BF3B4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B511C41C1D5001BF3B4 /* Bolts.framework */; };
+		2D556B561C41C1FD001BF3B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B551C41C1FD001BF3B4 /* AudioToolbox.framework */; };
+		2D556B581C41C202001BF3B4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B571C41C202001BF3B4 /* CFNetwork.framework */; };
+		2D556B5A1C41C209001BF3B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B591C41C209001BF3B4 /* CoreGraphics.framework */; };
+		2D556B5C1C41C221001BF3B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B5B1C41C221001BF3B4 /* QuartzCore.framework */; };
+		2D556B5E1C41C227001BF3B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B5D1C41C227001BF3B4 /* Security.framework */; };
+		2D556B621C41C238001BF3B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B611C41C238001BF3B4 /* SystemConfiguration.framework */; };
+		2D556B641C41C240001BF3B4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B631C41C240001BF3B4 /* libz.tbd */; };
+		2D556B661C41C249001BF3B4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B651C41C249001BF3B4 /* libsqlite3.tbd */; };
+		2D556B681C41C253001BF3B4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B671C41C253001BF3B4 /* Accounts.framework */; };
+		2D556B6A1C41C259001BF3B4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B691C41C259001BF3B4 /* Social.framework */; };
+		2D59EFE21C4D610E009A20FF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D59EFE11C4D610E009A20FF /* iAd.framework */; };
+		2D59EFE41C4D6B48009A20FF /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59EFE31C4D6B48009A20FF /* SettingsTableViewController.swift */; };
+		2D5A70A51C5FA8E20059B141 /* StoriesCDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B5B1C58D18F006B9360 /* StoriesCDModel.swift */; };
+		2D5A70A61C5FA8E20059B141 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B601C58E3F0006B9360 /* Stories.swift */; };
+		2D5A70A71C5FA8E20059B141 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD491C4F983F00B3A01E /* MainNavigationController.swift */; };
+		2D5A70A81C5FA8E20059B141 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFA731C4DA76A00B7D22A /* Reachability.swift */; };
+		2D5A70A91C5FA8E20059B141 /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4B1C4FA8A700B3A01E /* FixturesViewController.swift */; };
+		2D5A70AA1C5FA8E20059B141 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5DC1C50D153009AE70C /* LoadingView.swift */; };
+		2D5A70AB1C5FA8E20059B141 /* Stories.old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F4A1C4031F6005C6DE1 /* Stories.old.swift */; };
+		2D5A70AC1C5FA8E20059B141 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A6031C510331009AE70C /* Settings.swift */; };
+		2D5A70AD1C5FA8E20059B141 /* AllStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F3A1C40294C005C6DE1 /* AllStoriesViewController.swift */; };
+		2D5A70AE1C5FA8E20059B141 /* Stories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B5F1C58E3F0006B9360 /* Stories+CoreDataProperties.swift */; };
+		2D5A70AF1C5FA8E20059B141 /* LeagueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */; };
+		2D5A70B01C5FA8E20059B141 /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */; };
+		2D5A70B11C5FA8E20059B141 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59EFE31C4D6B48009A20FF /* SettingsTableViewController.swift */; };
+		2D5A70B21C5FA8E20059B141 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD451C4F7C4A00B3A01E /* MenuTableViewController.swift */; };
+		2D5A70B31C5FA8E20059B141 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */; };
+		2D5A70B41C5FA8E20059B141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F381C40294C005C6DE1 /* AppDelegate.swift */; };
+		2D5A70B51C5FA8E20059B141 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5DA1C50CBD9009AE70C /* Extensions.swift */; };
+		2D5A70B61C5FA8E20059B141 /* CheckDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D638C831C578247003B98FB /* CheckDownload.swift */; };
+		2D5A70B71C5FA8E20059B141 /* StoriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D638C811C577D8E003B98FB /* StoriesDataModel.swift */; };
+		2D5A70B81C5FA8E20059B141 /* iOSNewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B581C58CE29006B9360 /* iOSNewsApp.xcdatamodeld */; };
+		2D5A70B91C5FA8E20059B141 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */; };
+		2D5A70BA1C5FA8E20059B141 /* RatingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */; };
+		2D5A70BB1C5FA8E20059B141 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD471C4F92AF00B3A01E /* ContainerViewController.swift */; };
+		2D5A70BC1C5FA8E20059B141 /* RatingSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */; };
+		2D5A70BD1C5FA8E20059B141 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5CC1C50018E009AE70C /* League.swift */; };
+		2D5A70BE1C5FA8E20059B141 /* ViewStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F4E1C40448C005C6DE1 /* ViewStoryViewController.swift */; };
+		2D5A70C01C5FA8E20059B141 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D59EFE11C4D610E009A20FF /* iAd.framework */; };
+		2D5A70C11C5FA8E20059B141 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B691C41C259001BF3B4 /* Social.framework */; };
+		2D5A70C21C5FA8E20059B141 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B671C41C253001BF3B4 /* Accounts.framework */; };
+		2D5A70C31C5FA8E20059B141 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B651C41C249001BF3B4 /* libsqlite3.tbd */; };
+		2D5A70C41C5FA8E20059B141 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B631C41C240001BF3B4 /* libz.tbd */; };
+		2D5A70C51C5FA8E20059B141 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B611C41C238001BF3B4 /* SystemConfiguration.framework */; };
+		2D5A70C71C5FA8E20059B141 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B5D1C41C227001BF3B4 /* Security.framework */; };
+		2D5A70C81C5FA8E20059B141 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B5B1C41C221001BF3B4 /* QuartzCore.framework */; };
+		2D5A70C91C5FA8E20059B141 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B591C41C209001BF3B4 /* CoreGraphics.framework */; };
+		2D5A70CA1C5FA8E20059B141 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B571C41C202001BF3B4 /* CFNetwork.framework */; };
+		2D5A70CB1C5FA8E20059B141 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B551C41C1FD001BF3B4 /* AudioToolbox.framework */; };
+		2D5A70CC1C5FA8E20059B141 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B511C41C1D5001BF3B4 /* Bolts.framework */; };
+		2D5A70CD1C5FA8E20059B141 /* Pods_Everton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDC7B45D13393F317C471BC /* Pods_Everton.framework */; };
+		2D5A70CF1C5FA8E20059B141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D632F3F1C40294C005C6DE1 /* Assets.xcassets */; };
+		2D5A70D01C5FA8E20059B141 /* EFCLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B529F1C52FFF5002A40D8 /* EFCLaunch.storyboard */; };
+		2D5A70D11C5FA8E20059B141 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEC841C43B9DE0002F283 /* style.css */; };
+		2D5A70D21C5FA8E20059B141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D632F3C1C40294C005C6DE1 /* Main.storyboard */; };
+		2D5A70DB1C5FA9500059B141 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A709F1C5F99690059B141 /* iPad.storyboard */; };
+		2D5E2B5A1C58CE29006B9360 /* iOSNewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B581C58CE29006B9360 /* iOSNewsApp.xcdatamodeld */; };
+		2D5E2B5C1C58D18F006B9360 /* StoriesCDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B5B1C58D18F006B9360 /* StoriesCDModel.swift */; };
+		2D5E2B611C58E3F0006B9360 /* Stories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B5F1C58E3F0006B9360 /* Stories+CoreDataProperties.swift */; };
+		2D5E2B621C58E3F0006B9360 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B601C58E3F0006B9360 /* Stories.swift */; };
+		2D5EFA741C4DA76A00B7D22A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFA731C4DA76A00B7D22A /* Reachability.swift */; };
+		2D632F391C40294C005C6DE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F381C40294C005C6DE1 /* AppDelegate.swift */; };
+		2D632F3B1C40294C005C6DE1 /* AllStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F3A1C40294C005C6DE1 /* AllStoriesViewController.swift */; };
+		2D632F3E1C40294C005C6DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D632F3C1C40294C005C6DE1 /* Main.storyboard */; };
+		2D632F4B1C4031F6005C6DE1 /* Stories.old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F4A1C4031F6005C6DE1 /* Stories.old.swift */; };
+		2D632F4F1C40448C005C6DE1 /* ViewStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F4E1C40448C005C6DE1 /* ViewStoryViewController.swift */; };
+		2D638C821C577D8E003B98FB /* StoriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D638C811C577D8E003B98FB /* StoriesDataModel.swift */; };
+		2D638C841C578247003B98FB /* CheckDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D638C831C578247003B98FB /* CheckDownload.swift */; };
+		2D6CCD461C4F7C4A00B3A01E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD451C4F7C4A00B3A01E /* MenuTableViewController.swift */; };
+		2D6CCD481C4F92AF00B3A01E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD471C4F92AF00B3A01E /* ContainerViewController.swift */; };
+		2D6CCD4A1C4F983F00B3A01E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD491C4F983F00B3A01E /* MainNavigationController.swift */; };
+		2D6CCD4C1C4FA8A700B3A01E /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4B1C4FA8A700B3A01E /* FixturesViewController.swift */; };
+		2D6CCD501C4FF60D00B3A01E /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */; };
+		2DC877241C7F32E8008745C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DC877231C7F32E8008745C6 /* GoogleService-Info.plist */; };
+		2DE56DAA1C54C40400D8DE15 /* RatingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */; };
+		2DE56DAD1C54CC0100D8DE15 /* RatingSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */; };
+		2DE56DB01C54D2EF00D8DE15 /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */; };
+		2DFCD5C91C4CEF23005E9388 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */; };
+		2DFFEC851C43B9DE0002F283 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEC841C43B9DE0002F283 /* style.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D2CC93C1C4D460C00571F5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5A70D31C5FA8E20059B141 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everton.release.xcconfig"; path = "Pods/Target Support Files/Pods-Everton/Pods-Everton.release.xcconfig"; sourceTree = "<group>"; };
+		2207E69640F33E64316AF175 /* Pods-EvertonNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvertonNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvertonNewsApp/Pods-EvertonNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeagueTableViewController.swift; path = iOSNewsApp/LeagueTableViewController.swift; sourceTree = "<group>"; };
+		2D22A5CC1C50018E009AE70C /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = League.swift; path = iOSNewsApp/League.swift; sourceTree = "<group>"; };
+		2D22A5DA1C50CBD9009AE70C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = iOSNewsApp/Extensions.swift; sourceTree = "<group>"; };
+		2D22A5DC1C50D153009AE70C /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = iOSNewsApp/LoadingView.swift; sourceTree = "<group>"; };
+		2D22A6031C510331009AE70C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = iOSNewsApp/Settings.swift; sourceTree = "<group>"; };
+		2D4B529F1C52FFF5002A40D8 /* EFCLaunch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EFCLaunch.storyboard; sourceTree = "<group>"; };
+		2D4B52A31C5300A1002A40D8 /* everton.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = everton.plist; sourceTree = "<group>"; };
+		2D556B511C41C1D5001BF3B4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2D556B551C41C1FD001BF3B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2D556B571C41C202001BF3B4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2D556B591C41C209001BF3B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D556B5B1C41C221001BF3B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D556B5D1C41C227001BF3B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2D556B611C41C238001BF3B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2D556B631C41C240001BF3B4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2D556B651C41C249001BF3B4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2D556B671C41C253001BF3B4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2D556B691C41C259001BF3B4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2D59EFE11C4D610E009A20FF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		2D59EFE31C4D6B48009A20FF /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = iOSNewsApp/SettingsTableViewController.swift; sourceTree = "<group>"; };
+		2D5A709E1C5F99450059B141 /* Everton copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Everton copy-Info.plist"; path = "/Users/DanTaylor/Sites/Sports Apps/AllTeams/Everton copy-Info.plist"; sourceTree = "<absolute>"; };
+		2D5A709F1C5F99690059B141 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		2D5A70D91C5FA8E20059B141 /* EFC News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EFC News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5A70DA1C5FA8E20059B141 /* Everton copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Everton copy2-Info.plist"; path = "/Users/DanTaylor/Sites/Sports Apps/AllTeams/Everton copy2-Info.plist"; sourceTree = "<absolute>"; };
+		2D5A71141C5FAA420059B141 /* Everton copy 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Everton copy 2-Info.plist"; path = "/Users/DanTaylor/Sites/Sports Apps/AllTeams/Everton copy 2-Info.plist"; sourceTree = "<absolute>"; };
+		2D5E2B591C58CE29006B9360 /* iOSNewsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSNewsApp.xcdatamodel; sourceTree = "<group>"; };
+		2D5E2B5B1C58D18F006B9360 /* StoriesCDModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesCDModel.swift; sourceTree = "<group>"; };
+		2D5E2B5F1C58E3F0006B9360 /* Stories+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2D5E2B601C58E3F0006B9360 /* Stories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		2D5EFA731C4DA76A00B7D22A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = iOSNewsApp/Reachability.swift; sourceTree = "<group>"; };
+		2D632F351C40294C005C6DE1 /* EFC News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EFC News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D632F381C40294C005C6DE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iOSNewsApp/AppDelegate.swift; sourceTree = "<group>"; };
+		2D632F3A1C40294C005C6DE1 /* AllStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllStoriesViewController.swift; path = iOSNewsApp/AllStoriesViewController.swift; sourceTree = "<group>"; };
+		2D632F3D1C40294C005C6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D632F3F1C40294C005C6DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iOSNewsApp/Assets.xcassets; sourceTree = "<group>"; };
+		2D632F4A1C4031F6005C6DE1 /* Stories.old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stories.old.swift; path = iOSNewsApp/Stories.old.swift; sourceTree = "<group>"; };
+		2D632F4E1C40448C005C6DE1 /* ViewStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewStoryViewController.swift; path = iOSNewsApp/ViewStoryViewController.swift; sourceTree = "<group>"; };
+		2D638C811C577D8E003B98FB /* StoriesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesDataModel.swift; sourceTree = "<group>"; };
+		2D638C831C578247003B98FB /* CheckDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckDownload.swift; path = iOSNewsApp/CheckDownload.swift; sourceTree = "<group>"; };
+		2D6CCD451C4F7C4A00B3A01E /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = iOSNewsApp/MenuTableViewController.swift; sourceTree = "<group>"; };
+		2D6CCD471C4F92AF00B3A01E /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerViewController.swift; path = iOSNewsApp/ContainerViewController.swift; sourceTree = "<group>"; };
+		2D6CCD491C4F983F00B3A01E /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = iOSNewsApp/MainNavigationController.swift; sourceTree = "<group>"; };
+		2D6CCD4B1C4FA8A700B3A01E /* FixturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FixturesViewController.swift; path = iOSNewsApp/FixturesViewController.swift; sourceTree = "<group>"; };
+		2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fixtures.swift; path = iOSNewsApp/Fixtures.swift; sourceTree = "<group>"; };
+		2D8EBC151C6924F000D13E6B /* Everton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everton-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D8EBC161C6924F000D13E6B /* Liverpool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Liverpool-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D8EBC171C6924F000D13E6B /* Everton Universal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everton Universal-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DC877231C7F32E8008745C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Everton/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DC877281C7F342B008745C6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsTableViewController.swift; path = iOSNewsApp/RatingsTableViewController.swift; sourceTree = "<group>"; };
+		2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingSelectorViewController.swift; path = iOSNewsApp/RatingSelectorViewController.swift; sourceTree = "<group>"; };
+		2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsCell.swift; path = iOSNewsApp/RatingsCell.swift; sourceTree = "<group>"; };
+		2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = iOSNewsApp/SwiftRegex.swift; sourceTree = "<group>"; };
+		2DFFEC841C43B9DE0002F283 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = iOSNewsApp/style.css; sourceTree = "<group>"; };
+		2F8575B5434FBF727FC1FDE6 /* Pods-Liverpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liverpool.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liverpool/Pods-Liverpool.release.xcconfig"; sourceTree = "<group>"; };
+		31F92DCD6962CF508078128B /* Pods_Liverpool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liverpool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EC144A3A4EC23E358626CA /* Pods-Liverpool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liverpool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liverpool/Pods-Liverpool.debug.xcconfig"; sourceTree = "<group>"; };
+		9DDC7B45D13393F317C471BC /* Pods_Everton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Everton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEA57EFAFC99FE2F1BA7376 /* Pods-EvertonNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvertonNewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvertonNewsApp/Pods-EvertonNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		CA82BA884153A710049DC982 /* Pods_EvertonNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvertonNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Everton/Pods-Everton.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5A70BF1C5FA8E20059B141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A70C01C5FA8E20059B141 /* iAd.framework in Frameworks */,
+				2D5A70C11C5FA8E20059B141 /* Social.framework in Frameworks */,
+				2D5A70C21C5FA8E20059B141 /* Accounts.framework in Frameworks */,
+				2D5A70C31C5FA8E20059B141 /* libsqlite3.tbd in Frameworks */,
+				2D5A70C41C5FA8E20059B141 /* libz.tbd in Frameworks */,
+				2D5A70C51C5FA8E20059B141 /* SystemConfiguration.framework in Frameworks */,
+				2D5A70C71C5FA8E20059B141 /* Security.framework in Frameworks */,
+				2D5A70C81C5FA8E20059B141 /* QuartzCore.framework in Frameworks */,
+				2D5A70C91C5FA8E20059B141 /* CoreGraphics.framework in Frameworks */,
+				2D5A70CA1C5FA8E20059B141 /* CFNetwork.framework in Frameworks */,
+				2D5A70CB1C5FA8E20059B141 /* AudioToolbox.framework in Frameworks */,
+				2D5A70CC1C5FA8E20059B141 /* Bolts.framework in Frameworks */,
+				2D5A70CD1C5FA8E20059B141 /* Pods_Everton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D632F321C40294C005C6DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59EFE21C4D610E009A20FF /* iAd.framework in Frameworks */,
+				2D556B6A1C41C259001BF3B4 /* Social.framework in Frameworks */,
+				2D556B681C41C253001BF3B4 /* Accounts.framework in Frameworks */,
+				2D556B661C41C249001BF3B4 /* libsqlite3.tbd in Frameworks */,
+				2D556B641C41C240001BF3B4 /* libz.tbd in Frameworks */,
+				2D556B621C41C238001BF3B4 /* SystemConfiguration.framework in Frameworks */,
+				2D556B5E1C41C227001BF3B4 /* Security.framework in Frameworks */,
+				2D556B5C1C41C221001BF3B4 /* QuartzCore.framework in Frameworks */,
+				2D556B5A1C41C209001BF3B4 /* CoreGraphics.framework in Frameworks */,
+				2D556B581C41C202001BF3B4 /* CFNetwork.framework in Frameworks */,
+				2D556B561C41C1FD001BF3B4 /* AudioToolbox.framework in Frameworks */,
+				2D556B531C41C1D5001BF3B4 /* Bolts.framework in Frameworks */,
+				12849E6735168BF39EA0C65F /* Pods_Everton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D22A6051C510613009AE70C /* External */ = {
+			isa = PBXGroup;
+			children = (
+				2D22A5DC1C50D153009AE70C /* LoadingView.swift */,
+				2D5EFA731C4DA76A00B7D22A /* Reachability.swift */,
+				2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */,
+			);
+			name = External;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D22A6061C510637009AE70C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E2B5F1C58E3F0006B9360 /* Stories+CoreDataProperties.swift */,
+				2D5E2B601C58E3F0006B9360 /* Stories.swift */,
+				2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */,
+				2D22A5CC1C50018E009AE70C /* League.swift */,
+				2D632F4A1C4031F6005C6DE1 /* Stories.old.swift */,
+				2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D22A6071C51063C009AE70C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F3A1C40294C005C6DE1 /* AllStoriesViewController.swift */,
+				2D6CCD471C4F92AF00B3A01E /* ContainerViewController.swift */,
+				2D6CCD4B1C4FA8A700B3A01E /* FixturesViewController.swift */,
+				2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */,
+				2D6CCD491C4F983F00B3A01E /* MainNavigationController.swift */,
+				2D6CCD451C4F7C4A00B3A01E /* MenuTableViewController.swift */,
+				2D59EFE31C4D6B48009A20FF /* SettingsTableViewController.swift */,
+				2D632F4E1C40448C005C6DE1 /* ViewStoryViewController.swift */,
+				2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */,
+				2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D22A6081C510644009AE70C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F3C1C40294C005C6DE1 /* Main.storyboard */,
+				2D5A709F1C5F99690059B141 /* iPad.storyboard */,
+			);
+			name = Storyboards;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D22A6091C51068B009AE70C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D638C831C578247003B98FB /* CheckDownload.swift */,
+				2D22A5DA1C50CBD9009AE70C /* Extensions.swift */,
+			);
+			name = Extensions;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D22A60A1C510696009AE70C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F381C40294C005C6DE1 /* AppDelegate.swift */,
+				2DFFEC841C43B9DE0002F283 /* style.css */,
+			);
+			name = Other;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2D4B529E1C52FDA6002A40D8 /* Everton */ = {
+			isa = PBXGroup;
+			children = (
+				2DC877231C7F32E8008745C6 /* GoogleService-Info.plist */,
+				2D4B52A31C5300A1002A40D8 /* everton.plist */,
+				2D4B529F1C52FFF5002A40D8 /* EFCLaunch.storyboard */,
+				2D22A6031C510331009AE70C /* Settings.swift */,
+				2D632F3F1C40294C005C6DE1 /* Assets.xcassets */,
+			);
+			name = Everton;
+			sourceTree = "<group>";
+		};
+		2D556B501C41C1C3001BF3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DC877281C7F342B008745C6 /* StoreKit.framework */,
+				2D59EFE11C4D610E009A20FF /* iAd.framework */,
+				2D556B691C41C259001BF3B4 /* Social.framework */,
+				2D556B671C41C253001BF3B4 /* Accounts.framework */,
+				2D556B651C41C249001BF3B4 /* libsqlite3.tbd */,
+				2D556B631C41C240001BF3B4 /* libz.tbd */,
+				2D556B611C41C238001BF3B4 /* SystemConfiguration.framework */,
+				2D556B5D1C41C227001BF3B4 /* Security.framework */,
+				2D556B5B1C41C221001BF3B4 /* QuartzCore.framework */,
+				2D556B591C41C209001BF3B4 /* CoreGraphics.framework */,
+				2D556B571C41C202001BF3B4 /* CFNetwork.framework */,
+				2D556B551C41C1FD001BF3B4 /* AudioToolbox.framework */,
+				2D556B511C41C1D5001BF3B4 /* Bolts.framework */,
+				CA82BA884153A710049DC982 /* Pods_EvertonNewsApp.framework */,
+				9DDC7B45D13393F317C471BC /* Pods_Everton.framework */,
+				31F92DCD6962CF508078128B /* Pods_Liverpool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D5A709D1C5F99450059B141 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		2D632F2C1C40294C005C6DE1 = {
+			isa = PBXGroup;
+			children = (
+				2D5A709D1C5F99450059B141 /* Resources-iPad */,
+				2D4B529E1C52FDA6002A40D8 /* Everton */,
+				2D632F371C40294C005C6DE1 /* iOSNewsApp */,
+				2D556B501C41C1C3001BF3B4 /* Frameworks */,
+				2D632F361C40294C005C6DE1 /* Products */,
+				C104669AEEAB58E74C45ED28 /* Pods */,
+				2D5A709E1C5F99450059B141 /* Everton copy-Info.plist */,
+				2D5A70DA1C5FA8E20059B141 /* Everton copy2-Info.plist */,
+				2D5A71141C5FAA420059B141 /* Everton copy 2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		2D632F361C40294C005C6DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F351C40294C005C6DE1 /* EFC News.app */,
+				2D5A70D91C5FA8E20059B141 /* EFC News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D632F371C40294C005C6DE1 /* iOSNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D638C851C5797D4003B98FB /* DataModels */,
+				2D22A6061C510637009AE70C /* Classes */,
+				2D22A6091C51068B009AE70C /* Extensions */,
+				2D22A6051C510613009AE70C /* External */,
+				2D22A60A1C510696009AE70C /* Other */,
+				2D22A6081C510644009AE70C /* Storyboards */,
+				2D22A6071C51063C009AE70C /* View Controllers */,
+				2D5E2B581C58CE29006B9360 /* iOSNewsApp.xcdatamodeld */,
+				2D8EBC151C6924F000D13E6B /* Everton-Bridging-Header.h */,
+				2D8EBC161C6924F000D13E6B /* Liverpool-Bridging-Header.h */,
+				2D8EBC171C6924F000D13E6B /* Everton Universal-Bridging-Header.h */,
+			);
+			path = iOSNewsApp;
+			sourceTree = "<group>";
+		};
+		2D638C851C5797D4003B98FB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D638C811C577D8E003B98FB /* StoriesDataModel.swift */,
+				2D5E2B5B1C58D18F006B9360 /* StoriesCDModel.swift */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		C104669AEEAB58E74C45ED28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2207E69640F33E64316AF175 /* Pods-EvertonNewsApp.debug.xcconfig */,
+				BCEA57EFAFC99FE2F1BA7376 /* Pods-EvertonNewsApp.release.xcconfig */,
+				E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */,
+				0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */,
+				51EC144A3A4EC23E358626CA /* Pods-Liverpool.debug.xcconfig */,
+				2F8575B5434FBF727FC1FDE6 /* Pods-Liverpool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5A70A21C5FA8E20059B141 /* Everton Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5A70D61C5FA8E20059B141 /* Build configuration list for PBXNativeTarget "Everton Universal" */;
+			buildPhases = (
+				2D5A70A31C5FA8E20059B141 /* Check Pods Manifest.lock */,
+				2D5A70A41C5FA8E20059B141 /* Sources */,
+				2D5A70BF1C5FA8E20059B141 /* Frameworks */,
+				2D5A70CE1C5FA8E20059B141 /* Resources */,
+				2D5A70D31C5FA8E20059B141 /* CopyFiles */,
+				2D5A70D41C5FA8E20059B141 /* Embed Pods Frameworks */,
+				2D5A70D51C5FA8E20059B141 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Everton Universal";
+			productName = EvertonNewsApp;
+			productReference = 2D5A70D91C5FA8E20059B141 /* EFC News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D632F341C40294C005C6DE1 /* Everton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D632F471C40294C005C6DE1 /* Build configuration list for PBXNativeTarget "Everton" */;
+			buildPhases = (
+				399EC0BAF97481161FF9817E /* Check Pods Manifest.lock */,
+				2D632F311C40294C005C6DE1 /* Sources */,
+				2D632F321C40294C005C6DE1 /* Frameworks */,
+				2D632F331C40294C005C6DE1 /* Resources */,
+				2D2CC93C1C4D460C00571F5B /* CopyFiles */,
+				131BB82223E3E5DAF5AD1B68 /* Embed Pods Frameworks */,
+				5F118241BD1CA94BBAED4B01 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Everton;
+			productName = EvertonNewsApp;
+			productReference = 2D632F351C40294C005C6DE1 /* EFC News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D632F2D1C40294C005C6DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dan Taylor";
+				TargetAttributes = {
+					2D632F341C40294C005C6DE1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AFL2BHRPSS;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2D632F301C40294C005C6DE1 /* Build configuration list for PBXProject "iOSNewsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D632F2C1C40294C005C6DE1;
+			productRefGroup = 2D632F361C40294C005C6DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D632F341C40294C005C6DE1 /* Everton */,
+				2D5A70A21C5FA8E20059B141 /* Everton Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5A70CE1C5FA8E20059B141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A70CF1C5FA8E20059B141 /* Assets.xcassets in Resources */,
+				2D5A70D01C5FA8E20059B141 /* EFCLaunch.storyboard in Resources */,
+				2D5A70D11C5FA8E20059B141 /* style.css in Resources */,
+				2D5A70DB1C5FA9500059B141 /* iPad.storyboard in Resources */,
+				2D5A70D21C5FA8E20059B141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D632F331C40294C005C6DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B52A61C5300C3002A40D8 /* Assets.xcassets in Resources */,
+				2D4B52A01C52FFF5002A40D8 /* EFCLaunch.storyboard in Resources */,
+				2DFFEC851C43B9DE0002F283 /* style.css in Resources */,
+				2D3F99AF1C68B2E600214568 /* iPad.storyboard in Resources */,
+				2D632F3E1C40294C005C6DE1 /* Main.storyboard in Resources */,
+				2DC877241C7F32E8008745C6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131BB82223E3E5DAF5AD1B68 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5A70A31C5FA8E20059B141 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5A70D41C5FA8E20059B141 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5A70D51C5FA8E20059B141 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		399EC0BAF97481161FF9817E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F118241BD1CA94BBAED4B01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5A70A41C5FA8E20059B141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A70A51C5FA8E20059B141 /* StoriesCDModel.swift in Sources */,
+				2D5A70A61C5FA8E20059B141 /* Stories.swift in Sources */,
+				2D5A70A71C5FA8E20059B141 /* MainNavigationController.swift in Sources */,
+				2D5A70A81C5FA8E20059B141 /* Reachability.swift in Sources */,
+				2D5A70A91C5FA8E20059B141 /* FixturesViewController.swift in Sources */,
+				2D5A70AA1C5FA8E20059B141 /* LoadingView.swift in Sources */,
+				2D5A70AB1C5FA8E20059B141 /* Stories.old.swift in Sources */,
+				2D5A70AC1C5FA8E20059B141 /* Settings.swift in Sources */,
+				2D5A70AD1C5FA8E20059B141 /* AllStoriesViewController.swift in Sources */,
+				2D5A70AE1C5FA8E20059B141 /* Stories+CoreDataProperties.swift in Sources */,
+				2D5A70AF1C5FA8E20059B141 /* LeagueTableViewController.swift in Sources */,
+				2D5A70B01C5FA8E20059B141 /* RatingsCell.swift in Sources */,
+				2D5A70B11C5FA8E20059B141 /* SettingsTableViewController.swift in Sources */,
+				2D5A70B21C5FA8E20059B141 /* MenuTableViewController.swift in Sources */,
+				2D5A70B31C5FA8E20059B141 /* SwiftRegex.swift in Sources */,
+				2D5A70B41C5FA8E20059B141 /* AppDelegate.swift in Sources */,
+				2D5A70B51C5FA8E20059B141 /* Extensions.swift in Sources */,
+				2D5A70B61C5FA8E20059B141 /* CheckDownload.swift in Sources */,
+				2D5A70B71C5FA8E20059B141 /* StoriesDataModel.swift in Sources */,
+				2D5A70B81C5FA8E20059B141 /* iOSNewsApp.xcdatamodeld in Sources */,
+				2D5A70B91C5FA8E20059B141 /* Fixtures.swift in Sources */,
+				2D5A70BA1C5FA8E20059B141 /* RatingsTableViewController.swift in Sources */,
+				2D5A70BB1C5FA8E20059B141 /* ContainerViewController.swift in Sources */,
+				2D5A70BC1C5FA8E20059B141 /* RatingSelectorViewController.swift in Sources */,
+				2D5A70BD1C5FA8E20059B141 /* League.swift in Sources */,
+				2D5A70BE1C5FA8E20059B141 /* ViewStoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D632F311C40294C005C6DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5E2B5C1C58D18F006B9360 /* StoriesCDModel.swift in Sources */,
+				2D5E2B621C58E3F0006B9360 /* Stories.swift in Sources */,
+				2D6CCD4A1C4F983F00B3A01E /* MainNavigationController.swift in Sources */,
+				2D5EFA741C4DA76A00B7D22A /* Reachability.swift in Sources */,
+				2D6CCD4C1C4FA8A700B3A01E /* FixturesViewController.swift in Sources */,
+				2D22A5DD1C50D153009AE70C /* LoadingView.swift in Sources */,
+				2D632F4B1C4031F6005C6DE1 /* Stories.old.swift in Sources */,
+				2D22A6041C510331009AE70C /* Settings.swift in Sources */,
+				2D632F3B1C40294C005C6DE1 /* AllStoriesViewController.swift in Sources */,
+				2D5E2B611C58E3F0006B9360 /* Stories+CoreDataProperties.swift in Sources */,
+				2D22A5C81C5000A3009AE70C /* LeagueTableViewController.swift in Sources */,
+				2DE56DB01C54D2EF00D8DE15 /* RatingsCell.swift in Sources */,
+				2D59EFE41C4D6B48009A20FF /* SettingsTableViewController.swift in Sources */,
+				2D6CCD461C4F7C4A00B3A01E /* MenuTableViewController.swift in Sources */,
+				2DFCD5C91C4CEF23005E9388 /* SwiftRegex.swift in Sources */,
+				2D632F391C40294C005C6DE1 /* AppDelegate.swift in Sources */,
+				2D22A5DB1C50CBD9009AE70C /* Extensions.swift in Sources */,
+				2D638C841C578247003B98FB /* CheckDownload.swift in Sources */,
+				2D638C821C577D8E003B98FB /* StoriesDataModel.swift in Sources */,
+				2D5E2B5A1C58CE29006B9360 /* iOSNewsApp.xcdatamodeld in Sources */,
+				2D6CCD501C4FF60D00B3A01E /* Fixtures.swift in Sources */,
+				2DE56DAA1C54C40400D8DE15 /* RatingsTableViewController.swift in Sources */,
+				2D6CCD481C4F92AF00B3A01E /* ContainerViewController.swift in Sources */,
+				2DE56DAD1C54CC0100D8DE15 /* RatingSelectorViewController.swift in Sources */,
+				2D22A5CD1C50018E009AE70C /* League.swift in Sources */,
+				2D632F4F1C40448C005C6DE1 /* ViewStoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D632F3C1C40294C005C6DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D632F3D1C40294C005C6DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = iOSNewsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D5A70D71C5FA8E20059B141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = everton.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tailoredmarketing.EvertonNewsApp;
+				PRODUCT_NAME = "EFC News";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton Universal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5A70D81C5FA8E20059B141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = everton.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tailoredmarketing.EvertonNewsApp;
+				PRODUCT_NAME = "EFC News";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton Universal-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D632F451C40294C005C6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D632F461C40294C005C6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D632F481C40294C005C6DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = everton.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.propermotion.EvertonArentWe;
+				PRODUCT_NAME = "EFC News";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D632F491C40294C005C6DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = everton.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.propermotion.EvertonArentWe;
+				PRODUCT_NAME = "EFC News";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5A70D61C5FA8E20059B141 /* Build configuration list for PBXNativeTarget "Everton Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5A70D71C5FA8E20059B141 /* Debug */,
+				2D5A70D81C5FA8E20059B141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D632F301C40294C005C6DE1 /* Build configuration list for PBXProject "iOSNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D632F451C40294C005C6DE1 /* Debug */,
+				2D632F461C40294C005C6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D632F471C40294C005C6DE1 /* Build configuration list for PBXNativeTarget "Everton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D632F481C40294C005C6DE1 /* Debug */,
+				2D632F491C40294C005C6DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D5E2B581C58CE29006B9360 /* iOSNewsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D5E2B591C58CE29006B9360 /* iOSNewsApp.xcdatamodel */,
+			);
+			currentVersion = 2D5E2B591C58CE29006B9360 /* iOSNewsApp.xcdatamodel */;
+			path = iOSNewsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D632F2D1C40294C005C6DE1 /* Project object */;
+}
