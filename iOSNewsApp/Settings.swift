@@ -22,8 +22,8 @@ class Settings: NSObject {
     override init() {
         
         // MARK: - URLs
-        self.rssUrl         = "http://www.football-news365.co.uk/xmlfeeds/rss-6.xml"
-        self.jsonStoriesUrl = "http://www.football-news365.co.uk/xmlfeeds/rss-6.json"
+        self.rssUrl         = "https://www.evertonarentwe.com/feedadmin/xmlfeeds/rss-6.xml"
+        self.jsonStoriesUrl = "https://www.evertonarentwe.com/feedadmin/xmlfeeds/rss-6.json"
         self.leagueUrl      = "http://api.football-data.org/v1/soccerseasons/398/leagueTable"
         self.fixturesUrl    = "http://dev.everton-news.co.uk/fixtures.json"
     
