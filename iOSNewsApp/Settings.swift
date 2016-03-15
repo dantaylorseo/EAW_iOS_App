@@ -28,13 +28,13 @@ class Settings: NSObject {
         self.fixturesUrl    = "http://dev.everton-news.co.uk/fixtures.json"
     
         // MARK: - In App Purchases
-        self.productId = "evertonNewsPremium"
+        self.productId = "EAWPremium"
     
         // MARK: - Parse Keys
         self.appid = "SGX1W9g0yI5nIAcYoMg04oob6iAuOuKxjvHupexO"
         self.client = "IxG7LMPdWMC8puNHYS4HL4K4p2AYJhtC36uN5fIc"
         
-        self.barTint = 0x00369C
+        self.barTint = 0x113081
         
     }
     

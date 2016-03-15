@@ -23,7 +23,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.21176470589999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.067000000000000004" green="0.188" blue="0.50600000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="YMB-MW-eDN" firstAttribute="top" secondItem="ih8-sY-C0m" secondAttribute="bottom" constant="205" id="Yiy-1k-PYf"/>
                             <constraint firstItem="YMB-MW-eDN" firstAttribute="centerX" secondItem="mAq-Wo-EXd" secondAttribute="centerX" id="tvR-Zb-Dtb"/>
@@ -39,4 +39,5 @@
     <resources>
         <image name="logo-trans-3" width="150" height="150"/>
     </resources>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

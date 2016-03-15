@@ -182,7 +182,7 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
         let newdate = formatter.stringFromDate(item.date!)
         let subTitle = "\(item.site) - \(newdate)"
         
-        if fetchedResultsController.indexPathForObject(item)!.row == 0 {
+        if fetchedResultsController.indexPathForObject(item)!.row == -1 {
             
             print("Top")
             let cell = tableView.dequeueReusableCellWithIdentifier("TopCell", forIndexPath: indexPath)

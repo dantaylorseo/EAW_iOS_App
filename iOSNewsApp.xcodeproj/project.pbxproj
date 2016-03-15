@@ -96,6 +96,7 @@
 		2DE56DB01C54D2EF00D8DE15 /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */; };
 		2DFCD5C91C4CEF23005E9388 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */; };
 		2DFFEC851C43B9DE0002F283 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEC841C43B9DE0002F283 /* style.css */; };
+		62B2B4471C989C4E007EE4C3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC877281C7F342B008745C6 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -152,7 +153,7 @@
 		2D5E2B5F1C58E3F0006B9360 /* Stories+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stories+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2D5E2B601C58E3F0006B9360 /* Stories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 		2D5EFA731C4DA76A00B7D22A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = iOSNewsApp/Reachability.swift; sourceTree = "<group>"; };
-		2D632F351C40294C005C6DE1 /* EFC News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EFC News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D632F351C40294C005C6DE1 /* Everton Aren't We.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everton Aren't We.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D632F381C40294C005C6DE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iOSNewsApp/AppDelegate.swift; sourceTree = "<group>"; };
 		2D632F3A1C40294C005C6DE1 /* AllStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllStoriesViewController.swift; path = iOSNewsApp/AllStoriesViewController.swift; sourceTree = "<group>"; };
 		2D632F3D1C40294C005C6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -211,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D59EFE21C4D610E009A20FF /* iAd.framework in Frameworks */,
+				62B2B4471C989C4E007EE4C3 /* StoreKit.framework in Frameworks */,
 				2D556B6A1C41C259001BF3B4 /* Social.framework in Frameworks */,
 				2D556B681C41C253001BF3B4 /* Accounts.framework in Frameworks */,
 				2D556B661C41C249001BF3B4 /* libsqlite3.tbd in Frameworks */,
@@ -362,7 +364,7 @@
 		2D632F361C40294C005C6DE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D632F351C40294C005C6DE1 /* EFC News.app */,
+				2D632F351C40294C005C6DE1 /* Everton Aren't We.app */,
 				2D5A70D91C5FA8E20059B141 /* EFC News.app */,
 			);
 			name = Products;
@@ -450,7 +452,7 @@
 			);
 			name = Everton;
 			productName = EvertonNewsApp;
-			productReference = 2D632F351C40294C005C6DE1 /* EFC News.app */;
+			productReference = 2D632F351C40294C005C6DE1 /* Everton Aren't We.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -467,6 +469,9 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = AFL2BHRPSS;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -844,7 +849,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.propermotion.EvertonArentWe;
-				PRODUCT_NAME = "EFC News";
+				PRODUCT_NAME = "Everton Aren't We";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -869,7 +874,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.propermotion.EvertonArentWe;
-				PRODUCT_NAME = "EFC News";
+				PRODUCT_NAME = "Everton Aren't We";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
