@@ -97,7 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Optional: configure GAI options.
         let gai = GAI.sharedInstance()
-        gai.trackerWithTrackingId("")
+        gai.trackerWithTrackingId("UA-51313908-2")
         //gai.dispatchInterval = 5
         gai.trackUncaughtExceptions = true  // report uncaught exceptions
         //gai.logger.logLevel = GAILogLevel.Verbose
