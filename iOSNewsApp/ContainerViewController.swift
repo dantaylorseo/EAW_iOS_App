@@ -75,8 +75,8 @@ class ContainerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideMenu", name: "hideMenu", object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showMenu", name: "showMenu", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ContainerViewController.hideMenu), name: "hideMenu", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ContainerViewController.showMenu), name: "showMenu", object: nil)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         

@@ -43,10 +43,10 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
             print("An error occurred")
         }
         
-        let menuItem = UIBarButtonItem(title: NSString(string: "\u{2630}") as String, style: .Plain, target: self, action: "menuButtonPress:")
+        let menuItem = UIBarButtonItem(title: NSString(string: "\u{2630}") as String, style: .Plain, target: self, action: #selector(AllStoriesViewController.menuButtonPress(_:)))
         self.navigationItem.leftBarButtonItem = menuItem
         
-        NSTimer.scheduledTimerWithTimeInterval( 1 * 60 , target: self, selector: Selector("autoUpdate"), userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval( 1 * 60 , target: self, selector: #selector(AllStoriesViewController.autoUpdate), userInfo: nil, repeats: true)
         
         if !NSUserDefaults.standardUserDefaults().boolForKey("premium") {
             self.canDisplayBannerAds = true
@@ -58,7 +58,7 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
         imageView.image = image
         navigationItem.titleView = imageView
                 
-        self.refreshControl?.addTarget(self, action: "refresh:", forControlEvents: UIControlEvents.ValueChanged)
+        self.refreshControl?.addTarget(self, action: #selector(AllStoriesViewController.refresh(_:)), forControlEvents: UIControlEvents.ValueChanged)
         
     }
     

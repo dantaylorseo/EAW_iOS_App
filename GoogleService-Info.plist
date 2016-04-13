@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>TRACKING_ID</key>
-	<string>UA-73490218-1</string>
+	<string>UA-51313908-2</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>uk.co.tailoredmarketing.EvertonNewsApp</string>
+	<string>com.propermotion.EvertonArentWe</string>
 	<key>IS_ADS_ENABLED</key>
 	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -19,6 +19,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<false/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:229893473777:ios:8bbb1d858fc96889</string>
+	<string>1:785333810912:ios:25b55ae347d2dff6</string>
 </dict>
 </plist>

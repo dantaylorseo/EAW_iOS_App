@@ -16,7 +16,7 @@ class RatingsTableViewController: PFQueryTableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let menuItem = UIBarButtonItem(title: NSString(string: "\u{2630}") as String, style: .Plain, target: self, action: "menuButtonPress:")
+        let menuItem = UIBarButtonItem(title: NSString(string: "\u{2630}") as String, style: .Plain, target: self, action: #selector(RatingsTableViewController.menuButtonPress(_:)))
         self.navigationItem.leftBarButtonItem = menuItem
     }
     

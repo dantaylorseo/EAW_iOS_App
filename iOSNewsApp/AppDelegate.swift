@@ -79,8 +79,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // "content_available" was used to trigger a background push (introduced in iOS 7).
             // In that case, we skip tracking here to avoid double counting the app-open.
             
-            let preBackgroundPush = !application.respondsToSelector("backgroundRefreshStatus")
-            let oldPushHandlerOnly = !self.respondsToSelector("application:didReceiveRemoteNotification:fetchCompletionHandler:")
+            let preBackgroundPush = !application.respondsToSelector(Selector("backgroundRefreshStatus"))
+            let oldPushHandlerOnly = !self.respondsToSelector(#selector(UIApplicationDelegate.application(_:didReceiveRemoteNotification:fetchCompletionHandler:)))
             var pushPayload = false
             if let options = launchOptions {
                 pushPayload = options[UIApplicationLaunchOptionsRemoteNotificationKey] != nil
@@ -97,7 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Optional: configure GAI options.
         let gai = GAI.sharedInstance()
-        gai.trackerWithTrackingId("UA-73490218-1")
+        gai.trackerWithTrackingId("")
         //gai.dispatchInterval = 5
         gai.trackUncaughtExceptions = true  // report uncaught exceptions
         //gai.logger.logLevel = GAILogLevel.Verbose

@@ -96,7 +96,6 @@
 		2DE56DB01C54D2EF00D8DE15 /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */; };
 		2DFCD5C91C4CEF23005E9388 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */; };
 		2DFFEC851C43B9DE0002F283 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEC841C43B9DE0002F283 /* style.css */; };
-		62B2B4471C989C4E007EE4C3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC877281C7F342B008745C6 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -171,7 +170,6 @@
 		2D8EBC161C6924F000D13E6B /* Liverpool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Liverpool-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D8EBC171C6924F000D13E6B /* Everton Universal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everton Universal-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DC877231C7F32E8008745C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Everton/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2DC877281C7F342B008745C6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsTableViewController.swift; path = iOSNewsApp/RatingsTableViewController.swift; sourceTree = "<group>"; };
 		2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingSelectorViewController.swift; path = iOSNewsApp/RatingSelectorViewController.swift; sourceTree = "<group>"; };
 		2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsCell.swift; path = iOSNewsApp/RatingsCell.swift; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D59EFE21C4D610E009A20FF /* iAd.framework in Frameworks */,
-				62B2B4471C989C4E007EE4C3 /* StoreKit.framework in Frameworks */,
 				2D556B6A1C41C259001BF3B4 /* Social.framework in Frameworks */,
 				2D556B681C41C253001BF3B4 /* Accounts.framework in Frameworks */,
 				2D556B661C41C249001BF3B4 /* libsqlite3.tbd in Frameworks */,
@@ -319,7 +316,6 @@
 		2D556B501C41C1C3001BF3B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DC877281C7F342B008745C6 /* StoreKit.framework */,
 				2D59EFE11C4D610E009A20FF /* iAd.framework */,
 				2D556B691C41C259001BF3B4 /* Social.framework */,
 				2D556B671C41C253001BF3B4 /* Accounts.framework */,
@@ -463,17 +459,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Dan Taylor";
+				ORGANIZATIONNAME = "Everton Aren't We";
 				TargetAttributes = {
 					2D632F341C40294C005C6DE1 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = AFL2BHRPSS;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.SafariKeychain = {
 								enabled = 0;
