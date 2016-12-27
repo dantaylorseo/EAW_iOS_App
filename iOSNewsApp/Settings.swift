@@ -25,7 +25,7 @@ class Settings: NSObject {
         // MARK: - URLs
         self.rssUrl         = "https://www.evertonarentwe.com/feedadmin/xmlfeeds/rss-6.xml"
         self.jsonStoriesUrl = "https://www.evertonarentwe.com/feedadmin/xmlfeeds/rss-6.json"
-        self.leagueUrl      = "http://api.football-data.org/v1/soccerseasons/398/leagueTable"
+        self.leagueUrl      = "http://api.football-data.org/v1/soccerseasons/426/leagueTable"
         //self.fixturesUrl    = "http://dev.everton-news.co.uk/fixtures.json"
         self.fixturesUrl    = "http://www.football-news365.co.uk/app/fixtures/6"
         // MARK: - In App Purchases

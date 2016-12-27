@@ -37,7 +37,7 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate, GAD
     var activityIndicator = UIActivityIndicatorView()
     var strLabel = UILabel()
     
-    func adViewDidReceiveAd(_ bannerView: GADBannerView!) {
+    func adViewDidReceiveAd(bannerView: GADBannerView!) {
         bannerView.adSize = kGADAdSizeSmartBannerPortrait;
         
         adFrame.frame = CGRect(x: self.adFrame.frame.origin.x, y: self.tableView.bounds.origin.y + self.tableView.frame.height - self.bannerView.frame.size.height, width: self.adFrame.frame.size.width, height: self.bannerView.frame.size.height)
