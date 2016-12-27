@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12849E6735168BF39EA0C65F /* Pods_Everton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDC7B45D13393F317C471BC /* Pods_Everton.framework */; };
 		2D22A5C81C5000A3009AE70C /* LeagueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */; };
 		2D22A5CD1C50018E009AE70C /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5CC1C50018E009AE70C /* League.swift */; };
 		2D22A5DB1C50CBD9009AE70C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5DA1C50CBD9009AE70C /* Extensions.swift */; };
@@ -40,7 +39,6 @@
 		2D5A70AD1C5FA8E20059B141 /* AllStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F3A1C40294C005C6DE1 /* AllStoriesViewController.swift */; };
 		2D5A70AE1C5FA8E20059B141 /* Stories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B5F1C58E3F0006B9360 /* Stories+CoreDataProperties.swift */; };
 		2D5A70AF1C5FA8E20059B141 /* LeagueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */; };
-		2D5A70B01C5FA8E20059B141 /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */; };
 		2D5A70B11C5FA8E20059B141 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59EFE31C4D6B48009A20FF /* SettingsTableViewController.swift */; };
 		2D5A70B21C5FA8E20059B141 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD451C4F7C4A00B3A01E /* MenuTableViewController.swift */; };
 		2D5A70B31C5FA8E20059B141 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */; };
@@ -50,9 +48,7 @@
 		2D5A70B71C5FA8E20059B141 /* StoriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D638C811C577D8E003B98FB /* StoriesDataModel.swift */; };
 		2D5A70B81C5FA8E20059B141 /* iOSNewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E2B581C58CE29006B9360 /* iOSNewsApp.xcdatamodeld */; };
 		2D5A70B91C5FA8E20059B141 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */; };
-		2D5A70BA1C5FA8E20059B141 /* RatingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */; };
 		2D5A70BB1C5FA8E20059B141 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD471C4F92AF00B3A01E /* ContainerViewController.swift */; };
-		2D5A70BC1C5FA8E20059B141 /* RatingSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */; };
 		2D5A70BD1C5FA8E20059B141 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22A5CC1C50018E009AE70C /* League.swift */; };
 		2D5A70BE1C5FA8E20059B141 /* ViewStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F4E1C40448C005C6DE1 /* ViewStoryViewController.swift */; };
 		2D5A70C01C5FA8E20059B141 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D59EFE11C4D610E009A20FF /* iAd.framework */; };
@@ -67,7 +63,6 @@
 		2D5A70CA1C5FA8E20059B141 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B571C41C202001BF3B4 /* CFNetwork.framework */; };
 		2D5A70CB1C5FA8E20059B141 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B551C41C1FD001BF3B4 /* AudioToolbox.framework */; };
 		2D5A70CC1C5FA8E20059B141 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D556B511C41C1D5001BF3B4 /* Bolts.framework */; };
-		2D5A70CD1C5FA8E20059B141 /* Pods_Everton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDC7B45D13393F317C471BC /* Pods_Everton.framework */; };
 		2D5A70CF1C5FA8E20059B141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D632F3F1C40294C005C6DE1 /* Assets.xcassets */; };
 		2D5A70D01C5FA8E20059B141 /* EFCLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B529F1C52FFF5002A40D8 /* EFCLaunch.storyboard */; };
 		2D5A70D11C5FA8E20059B141 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEC841C43B9DE0002F283 /* style.css */; };
@@ -91,11 +86,9 @@
 		2D6CCD4C1C4FA8A700B3A01E /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4B1C4FA8A700B3A01E /* FixturesViewController.swift */; };
 		2D6CCD501C4FF60D00B3A01E /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */; };
 		2DC877241C7F32E8008745C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DC877231C7F32E8008745C6 /* GoogleService-Info.plist */; };
-		2DE56DAA1C54C40400D8DE15 /* RatingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */; };
-		2DE56DAD1C54CC0100D8DE15 /* RatingSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */; };
-		2DE56DB01C54D2EF00D8DE15 /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */; };
 		2DFCD5C91C4CEF23005E9388 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */; };
 		2DFFEC851C43B9DE0002F283 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFEC841C43B9DE0002F283 /* style.css */; };
+		3EF01D3D9B5AD81A719C5DA0 /* Pods_Everton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD43E04BA717D3486E67F4 /* Pods_Everton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,8 +113,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everton.release.xcconfig"; path = "Pods/Target Support Files/Pods-Everton/Pods-Everton.release.xcconfig"; sourceTree = "<group>"; };
-		2207E69640F33E64316AF175 /* Pods-EvertonNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvertonNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvertonNewsApp/Pods-EvertonNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		01CD43E04BA717D3486E67F4 /* Pods_Everton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Everton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D22A5C71C5000A3009AE70C /* LeagueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeagueTableViewController.swift; path = iOSNewsApp/LeagueTableViewController.swift; sourceTree = "<group>"; };
 		2D22A5CC1C50018E009AE70C /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = League.swift; path = iOSNewsApp/League.swift; sourceTree = "<group>"; };
 		2D22A5DA1C50CBD9009AE70C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = iOSNewsApp/Extensions.swift; sourceTree = "<group>"; };
@@ -170,18 +162,10 @@
 		2D8EBC161C6924F000D13E6B /* Liverpool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Liverpool-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D8EBC171C6924F000D13E6B /* Everton Universal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everton Universal-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DC877231C7F32E8008745C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Everton/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsTableViewController.swift; path = iOSNewsApp/RatingsTableViewController.swift; sourceTree = "<group>"; };
-		2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingSelectorViewController.swift; path = iOSNewsApp/RatingSelectorViewController.swift; sourceTree = "<group>"; };
-		2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsCell.swift; path = iOSNewsApp/RatingsCell.swift; sourceTree = "<group>"; };
 		2DFCD5C81C4CEF23005E9388 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = iOSNewsApp/SwiftRegex.swift; sourceTree = "<group>"; };
 		2DFFEC841C43B9DE0002F283 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = iOSNewsApp/style.css; sourceTree = "<group>"; };
-		2F8575B5434FBF727FC1FDE6 /* Pods-Liverpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liverpool.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liverpool/Pods-Liverpool.release.xcconfig"; sourceTree = "<group>"; };
-		31F92DCD6962CF508078128B /* Pods_Liverpool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liverpool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51EC144A3A4EC23E358626CA /* Pods-Liverpool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liverpool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liverpool/Pods-Liverpool.debug.xcconfig"; sourceTree = "<group>"; };
-		9DDC7B45D13393F317C471BC /* Pods_Everton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Everton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEA57EFAFC99FE2F1BA7376 /* Pods-EvertonNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvertonNewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvertonNewsApp/Pods-EvertonNewsApp.release.xcconfig"; sourceTree = "<group>"; };
-		CA82BA884153A710049DC982 /* Pods_EvertonNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvertonNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Everton/Pods-Everton.debug.xcconfig"; sourceTree = "<group>"; };
+		B0766512A95719CC62709616 /* Pods-Everton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everton.release.xcconfig"; path = "Pods/Target Support Files/Pods-Everton/Pods-Everton.release.xcconfig"; sourceTree = "<group>"; };
+		C7B9031F4A0510C31787371F /* Pods-Everton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Everton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Everton/Pods-Everton.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,7 +185,6 @@
 				2D5A70CA1C5FA8E20059B141 /* CFNetwork.framework in Frameworks */,
 				2D5A70CB1C5FA8E20059B141 /* AudioToolbox.framework in Frameworks */,
 				2D5A70CC1C5FA8E20059B141 /* Bolts.framework in Frameworks */,
-				2D5A70CD1C5FA8E20059B141 /* Pods_Everton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +204,7 @@
 				2D556B581C41C202001BF3B4 /* CFNetwork.framework in Frameworks */,
 				2D556B561C41C1FD001BF3B4 /* AudioToolbox.framework in Frameworks */,
 				2D556B531C41C1D5001BF3B4 /* Bolts.framework in Frameworks */,
-				12849E6735168BF39EA0C65F /* Pods_Everton.framework in Frameworks */,
+				3EF01D3D9B5AD81A719C5DA0 /* Pods_Everton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +230,6 @@
 				2D6CCD4F1C4FF60D00B3A01E /* Fixtures.swift */,
 				2D22A5CC1C50018E009AE70C /* League.swift */,
 				2D632F4A1C4031F6005C6DE1 /* Stories.old.swift */,
-				2DE56DAF1C54D2EF00D8DE15 /* RatingsCell.swift */,
 			);
 			name = Classes;
 			path = ..;
@@ -264,8 +246,6 @@
 				2D6CCD451C4F7C4A00B3A01E /* MenuTableViewController.swift */,
 				2D59EFE31C4D6B48009A20FF /* SettingsTableViewController.swift */,
 				2D632F4E1C40448C005C6DE1 /* ViewStoryViewController.swift */,
-				2DE56DA91C54C40400D8DE15 /* RatingsTableViewController.swift */,
-				2DE56DAC1C54CC0100D8DE15 /* RatingSelectorViewController.swift */,
 			);
 			name = "View Controllers";
 			path = ..;
@@ -328,9 +308,7 @@
 				2D556B571C41C202001BF3B4 /* CFNetwork.framework */,
 				2D556B551C41C1FD001BF3B4 /* AudioToolbox.framework */,
 				2D556B511C41C1D5001BF3B4 /* Bolts.framework */,
-				CA82BA884153A710049DC982 /* Pods_EvertonNewsApp.framework */,
-				9DDC7B45D13393F317C471BC /* Pods_Everton.framework */,
-				31F92DCD6962CF508078128B /* Pods_Liverpool.framework */,
+				01CD43E04BA717D3486E67F4 /* Pods_Everton.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -350,10 +328,10 @@
 				2D632F371C40294C005C6DE1 /* iOSNewsApp */,
 				2D556B501C41C1C3001BF3B4 /* Frameworks */,
 				2D632F361C40294C005C6DE1 /* Products */,
-				C104669AEEAB58E74C45ED28 /* Pods */,
 				2D5A709E1C5F99450059B141 /* Everton copy-Info.plist */,
 				2D5A70DA1C5FA8E20059B141 /* Everton copy2-Info.plist */,
 				2D5A71141C5FAA420059B141 /* Everton copy 2-Info.plist */,
+				85AD7EE2E313CE14E9D8FE6C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -393,15 +371,11 @@
 			name = DataModels;
 			sourceTree = "<group>";
 		};
-		C104669AEEAB58E74C45ED28 /* Pods */ = {
+		85AD7EE2E313CE14E9D8FE6C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2207E69640F33E64316AF175 /* Pods-EvertonNewsApp.debug.xcconfig */,
-				BCEA57EFAFC99FE2F1BA7376 /* Pods-EvertonNewsApp.release.xcconfig */,
-				E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */,
-				0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */,
-				51EC144A3A4EC23E358626CA /* Pods-Liverpool.debug.xcconfig */,
-				2F8575B5434FBF727FC1FDE6 /* Pods-Liverpool.release.xcconfig */,
+				C7B9031F4A0510C31787371F /* Pods-Everton.debug.xcconfig */,
+				B0766512A95719CC62709616 /* Pods-Everton.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -413,13 +387,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D5A70D61C5FA8E20059B141 /* Build configuration list for PBXNativeTarget "Everton Universal" */;
 			buildPhases = (
-				2D5A70A31C5FA8E20059B141 /* Check Pods Manifest.lock */,
 				2D5A70A41C5FA8E20059B141 /* Sources */,
 				2D5A70BF1C5FA8E20059B141 /* Frameworks */,
 				2D5A70CE1C5FA8E20059B141 /* Resources */,
 				2D5A70D31C5FA8E20059B141 /* CopyFiles */,
-				2D5A70D41C5FA8E20059B141 /* Embed Pods Frameworks */,
-				2D5A70D51C5FA8E20059B141 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,13 +405,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D632F471C40294C005C6DE1 /* Build configuration list for PBXNativeTarget "Everton" */;
 			buildPhases = (
-				399EC0BAF97481161FF9817E /* Check Pods Manifest.lock */,
+				39F4DC281793C8E0C7DA0FD6 /* [CP] Check Pods Manifest.lock */,
 				2D632F311C40294C005C6DE1 /* Sources */,
 				2D632F321C40294C005C6DE1 /* Frameworks */,
 				2D632F331C40294C005C6DE1 /* Resources */,
 				2D2CC93C1C4D460C00571F5B /* CopyFiles */,
-				131BB82223E3E5DAF5AD1B68 /* Embed Pods Frameworks */,
-				5F118241BD1CA94BBAED4B01 /* Copy Pods Resources */,
+				D1644BCD1F24E3E336AAE051 /* [CP] Embed Pods Frameworks */,
+				7CA02FB3140DAC05FB791A12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -461,9 +432,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Everton Aren't We";
 				TargetAttributes = {
+					2D5A70A21C5FA8E20059B141 = {
+						DevelopmentTeam = 7AVF29Q8GU;
+					};
 					2D632F341C40294C005C6DE1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = AFL2BHRPSS;
+						DevelopmentTeam = 7AVF29Q8GU;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -526,59 +500,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		131BB82223E3E5DAF5AD1B68 /* Embed Pods Frameworks */ = {
+		39F4DC281793C8E0C7DA0FD6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2D5A70A31C5FA8E20059B141 /* Check Pods Manifest.lock */ = {
+		7CA02FB3140DAC05FB791A12 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2D5A70D41C5FA8E20059B141 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D5A70D51C5FA8E20059B141 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,34 +530,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		399EC0BAF97481161FF9817E /* Check Pods Manifest.lock */ = {
+		D1644BCD1F24E3E336AAE051 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5F118241BD1CA94BBAED4B01 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Everton/Pods-Everton-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -634,7 +563,6 @@
 				2D5A70AD1C5FA8E20059B141 /* AllStoriesViewController.swift in Sources */,
 				2D5A70AE1C5FA8E20059B141 /* Stories+CoreDataProperties.swift in Sources */,
 				2D5A70AF1C5FA8E20059B141 /* LeagueTableViewController.swift in Sources */,
-				2D5A70B01C5FA8E20059B141 /* RatingsCell.swift in Sources */,
 				2D5A70B11C5FA8E20059B141 /* SettingsTableViewController.swift in Sources */,
 				2D5A70B21C5FA8E20059B141 /* MenuTableViewController.swift in Sources */,
 				2D5A70B31C5FA8E20059B141 /* SwiftRegex.swift in Sources */,
@@ -644,9 +572,7 @@
 				2D5A70B71C5FA8E20059B141 /* StoriesDataModel.swift in Sources */,
 				2D5A70B81C5FA8E20059B141 /* iOSNewsApp.xcdatamodeld in Sources */,
 				2D5A70B91C5FA8E20059B141 /* Fixtures.swift in Sources */,
-				2D5A70BA1C5FA8E20059B141 /* RatingsTableViewController.swift in Sources */,
 				2D5A70BB1C5FA8E20059B141 /* ContainerViewController.swift in Sources */,
-				2D5A70BC1C5FA8E20059B141 /* RatingSelectorViewController.swift in Sources */,
 				2D5A70BD1C5FA8E20059B141 /* League.swift in Sources */,
 				2D5A70BE1C5FA8E20059B141 /* ViewStoryViewController.swift in Sources */,
 			);
@@ -667,7 +593,6 @@
 				2D632F3B1C40294C005C6DE1 /* AllStoriesViewController.swift in Sources */,
 				2D5E2B611C58E3F0006B9360 /* Stories+CoreDataProperties.swift in Sources */,
 				2D22A5C81C5000A3009AE70C /* LeagueTableViewController.swift in Sources */,
-				2DE56DB01C54D2EF00D8DE15 /* RatingsCell.swift in Sources */,
 				2D59EFE41C4D6B48009A20FF /* SettingsTableViewController.swift in Sources */,
 				2D6CCD461C4F7C4A00B3A01E /* MenuTableViewController.swift in Sources */,
 				2DFCD5C91C4CEF23005E9388 /* SwiftRegex.swift in Sources */,
@@ -677,9 +602,7 @@
 				2D638C821C577D8E003B98FB /* StoriesDataModel.swift in Sources */,
 				2D5E2B5A1C58CE29006B9360 /* iOSNewsApp.xcdatamodeld in Sources */,
 				2D6CCD501C4FF60D00B3A01E /* Fixtures.swift in Sources */,
-				2DE56DAA1C54C40400D8DE15 /* RatingsTableViewController.swift in Sources */,
 				2D6CCD481C4F92AF00B3A01E /* ContainerViewController.swift in Sources */,
-				2DE56DAD1C54CC0100D8DE15 /* RatingSelectorViewController.swift in Sources */,
 				2D22A5CD1C50018E009AE70C /* League.swift in Sources */,
 				2D632F4F1C40448C005C6DE1 /* ViewStoryViewController.swift in Sources */,
 			);
@@ -702,12 +625,12 @@
 /* Begin XCBuildConfiguration section */
 		2D5A70D71C5FA8E20059B141 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7AVF29Q8GU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -726,12 +649,12 @@
 		};
 		2D5A70D81C5FA8E20059B141 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7AVF29Q8GU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -830,12 +753,13 @@
 		};
 		2D632F481C40294C005C6DE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E09D858DE94A9019CC53AE1E /* Pods-Everton.debug.xcconfig */;
+			baseConfigurationReference = C7B9031F4A0510C31787371F /* Pods-Everton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7AVF29Q8GU;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -849,18 +773,20 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2D632F491C40294C005C6DE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F93309467CC7CCEAD4CEE77 /* Pods-Everton.release.xcconfig */;
+			baseConfigurationReference = B0766512A95719CC62709616 /* Pods-Everton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = EFCAppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7AVF29Q8GU;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -873,6 +799,7 @@
 				PRODUCT_NAME = "Everton Aren't We";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSNewsApp/Everton-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

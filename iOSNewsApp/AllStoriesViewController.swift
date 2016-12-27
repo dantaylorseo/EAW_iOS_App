@@ -13,9 +13,10 @@ import Haneke
 import iAd
 import StoreKit
 import CoreData
+import GoogleMobileAds
 
 
-class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
+class AllStoriesViewController: UITableViewController, NSURLSessionDelegate, GADBannerViewDelegate {
     
     // MARK: - Actions, Oulets, Variables & Constants
     //var dataModel = StoriesDataModel()
@@ -25,6 +26,9 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
     var refreshing = false
     var rowCount = 0
     
+    @IBOutlet var adFrame: UIView!
+    var bannerView: GADBannerView!
+    
     var dateFormatter2: NSDateFormatter!
     
     var menuShown = false
@@ -32,6 +36,18 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
     var messageFrame = UIView()
     var activityIndicator = UIActivityIndicatorView()
     var strLabel = UILabel()
+    
+    func adViewDidReceiveAd(_ bannerView: GADBannerView!) {
+        bannerView.adSize = kGADAdSizeSmartBannerPortrait;
+        
+        adFrame.frame = CGRect(x: self.adFrame.frame.origin.x, y: self.tableView.bounds.origin.y + self.tableView.frame.height - self.bannerView.frame.size.height, width: self.adFrame.frame.size.width, height: self.bannerView.frame.size.height)
+        
+        adFrame.tintColor = UIColor(hex:Settings().barTint)
+        
+        adFrame.autoresizingMask = UIViewAutoresizing.FlexibleTopMargin
+        
+        self.view.addSubview(adFrame)
+    }
     
     // MARK: - View (Did|Will|Load) & Memory
     override func viewDidLoad() {
@@ -59,6 +75,15 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
         navigationItem.titleView = imageView
                 
         self.refreshControl?.addTarget(self, action: #selector(AllStoriesViewController.refresh(_:)), forControlEvents: UIControlEvents.ValueChanged)
+        
+        bannerView = GADBannerView.init(adSize: kGADAdSizeSmartBannerLandscape)
+        bannerView.adUnitID = Settings().AdMobBanner
+        bannerView.rootViewController = self
+        bannerView.delegate = self
+        
+        let request = GADRequest()
+        bannerView.loadRequest(request)
+        adFrame.addSubview(bannerView)
         
     }
     
@@ -257,7 +282,7 @@ class AllStoriesViewController: UITableViewController, NSURLSessionDelegate {
         image.drawInRect(rr)
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext();
-        return newImage
+        return newImage!
     }
     
     // MARK: - Progress Bar
